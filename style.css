@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding:0 ;
+    justify-content: space-between;
+}
+nav li {
+    flex: 1 auto;
+}
+
+nav li a {
+    background-color:rgb(30, 77, 30);
+    padding: 1rem 2rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.child{
+    flex-basis: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;   /* Specifies 3 columns in each row */
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+   }
+
+.child img{
+   width: 60%;
+}
+.pre-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    align-items: center;
+
+}
+
+.logo {
+    color: rgb(18, 60, 18);
+    background-color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-right:1rem ;
+    text-decoration: none;
+}
+
+.logo2{
+    color: rgb(18, 60, 18);
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: none;
+    padding-top: 500px;
+}
+img.you{
+    width: 80%;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    padding:1rem ;
+
+}
+button{
+    color: aliceblue;
+    background-color: rgb(29, 81, 29);
+    bottom: 300px;
+    
+}
+.active{
+    color: rgb(232, 171, 58);
+}
+
+.note{
+    background-color:orange;
+    padding: 1rem 2rem;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;   
+}
+h2{
+    color: rgb(12, 82, 12);
+    text-align: center;
+}
+.favour{
+    text-align: center;
+    background-color: aliceblue;
+    color: orange;
+    padding:30px;
+    margin-left: 500px;
+
+}
+.row{
+    display: flex;
+
+}
+
+img .me{
+    width: 100%;
+}
+img.my{
+    width: 90%;
+}
+img.love{
+    width: 100%
+}
+.pre-nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    align-items: center;
+    text-decoration: none;
+}
+.option{
+    margin-left: 200px;
+}
+.theme{
+    text-decoration: none;
+    color: black;
+}
+.yes{
+    text-decoration: none;
+    padding-top:100px ;
+    padding-right: 20px;
+    color: black;
+}
+.content{
+  text-align: center;  
+}
+
+
+
+
+
+
+
